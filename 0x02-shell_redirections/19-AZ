@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1" | tr "Ac" "zE"
+tr 'Ac' 'Ze' < "$1"

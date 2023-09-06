@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" | while read -r file; do echo "${file##*/}" | rev | cut -c 5- | rev; done | sort -f
+find -type f -name "*.gif" | sort -f | cut -d “.” -f 1

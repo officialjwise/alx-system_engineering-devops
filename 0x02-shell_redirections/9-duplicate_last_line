@@ -1,2 +1,9 @@
 #!/bin/bash
-tail -n 1 iacta > tee -a iacta
+if [ -f "iacta" ]; then
+  last_line=$(tail -n 1 "iacta")
+  echo "$last_line" >> "iacta"
+  echo "Last line duplicated:"
+  cat "iacta"
+else
+  echo "File 'iacta' does not exist."
+fi

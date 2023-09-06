@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -iname "*.gif" | sed 's/.*\///;s/\.gif$//I' | sort -f
+cut -d ';' -f 1 < input_file

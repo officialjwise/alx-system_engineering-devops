@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $(whoami | awk '{print toupper(substr($0, 1, 1)) tolower(substr($0, 2))}')"
+echo "hello $(whoami | tr '[:lower:]' '[:upper:]')$(whoami | tr '[:upper:]' '[:lower:]' | cut -c 2-)"

@@ -1,2 +1,2 @@
 #!/bin/bash
-read -r s; echo $s | rev
+while read -r line; do echo "$line" | rev; done

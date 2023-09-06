@@ -1,2 +1,2 @@
 #!/bin/bash
-rev() { echo "$1" | tac; } rev "$1"
+rev() { echo "$1" | tac; } "$1"

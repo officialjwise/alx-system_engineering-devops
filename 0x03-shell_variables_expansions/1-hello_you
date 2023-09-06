@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $(whoami | cut -c-13)"
+echo "hello $(whoami | tr '[:upper:]' '[:lower:]')"

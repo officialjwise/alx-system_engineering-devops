@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'Ac' 'Ze' < "$1"
+while IFS= read -r line; do echo "$line" | tr 'Ac' 'Ze'; done < "$1"

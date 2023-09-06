@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $(whoami | tr '[:upper:]' '[:lower:]')"
+Echo “hello $USER”

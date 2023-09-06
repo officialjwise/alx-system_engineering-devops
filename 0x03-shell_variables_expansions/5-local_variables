@@ -1,2 +1,2 @@
 #!/bin/bash
-set | sort
+(compgen -v | head -n 2; compgen -A function)

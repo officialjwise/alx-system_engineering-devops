@@ -1,5 +1,6 @@
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 echo '"(Ôo)'"  
 # Note the use of single quotes around the smiley
 =======
@@ -7,3 +8,6 @@ echo '"(Ôo)\'"
 >>>>>>> origin/main
 
 
+=======
+echo '"(Ôo)'\'''
+>>>>>>> daac3e10ac209ed2b5adbd885ae3388ffb9049c5

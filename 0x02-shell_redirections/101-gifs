@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d ';' -f 1 < input_file
+find . -type f -iname "*.gif" | while read -r file; do echo "${file##*/}" | tr '[:upper:]' '[:lower:]' | sed 's/\.gif$//'; done | sort

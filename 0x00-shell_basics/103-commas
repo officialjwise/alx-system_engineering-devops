@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p1A | LC_ALL=C sort | tr '\n' ','
+echo -n './, ../, '; ls -A1 | LC_ALL=C sort | tr '\n' ','

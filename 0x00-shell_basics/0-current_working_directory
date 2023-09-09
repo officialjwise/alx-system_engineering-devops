@@ -1,2 +1,2 @@
 #!/bin/bash
-echo current_working_directory="$(readlink -f $0)"
+dir=$(pwd) echo "Current working directory:" "$dir"

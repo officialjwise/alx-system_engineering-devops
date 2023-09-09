@@ -1,2 +1,2 @@
 #!/bin/bash
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" pwd )" echo "$DIR"
+current_working_directory=$(pwd) echo $current_working_directory

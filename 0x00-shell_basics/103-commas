@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | tr '\n' '\0' | rev | cut -d '/' -f 2- | rev | tr '\0' ','
+ls -aFX | tr '\n' ',' | rev | cut -c 2- | rev

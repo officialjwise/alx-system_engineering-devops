@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n './, ../, ' ls -A1 | LC_ALL=C sort | tr '\n' ','
+ls -p | tr '\n' ',' | rev | cut -c 2- | rev

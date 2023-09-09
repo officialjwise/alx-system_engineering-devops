@@ -1,2 +1,2 @@
 #!/bin/bash
-if [[ "$(stat -c "%u" hello)" == "guillaume" ]] then chown betty hello else echo "The file is not owned by guillaume" echo fi
+chown --from=guillaume betty hello

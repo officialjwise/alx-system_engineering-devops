@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 #!/bin/bash
 telnet towel.blinkenlights.nl
-=======
-#!/bin/bash
-telnet towel.blinkenlights.nl
->>>>>>> 9217033b2ee3fa0f0fcfb924ef0021cc4d485a05
